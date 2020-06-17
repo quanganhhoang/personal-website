@@ -7,7 +7,7 @@ class About extends Component {
         if (this.props.data) {
             ( { name, image, bio, funfact, address, phone, email, resumeDownload } = this.props.data);
             ( { street, city, state, zip } = address)
-            profilePic = `../../public/images/${image}`;
+            profilePic = `images/${image}`;
         }
 
         return (
