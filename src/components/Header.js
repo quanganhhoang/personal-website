@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class Header extends Component {
     render() {
-        let name, occupation, social;
+        let name, occupation, social, resumedownload;
         let networks;
         if (this.props.data) {
-            ( {name, occupation, social} = this.props.data)
+            ( {name, occupation, social, resumedownload} = this.props.data)
             
             networks = social.map(network => {
                 return (
@@ -41,6 +41,20 @@ class Header extends Component {
                     <ul className="social">
                         {networks}
                     </ul>
+                </div>
+                <div className="banner-text columns download">
+                    <p style={{marginTop: 20}}>
+                        <a 
+                            href={resumedownload}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            className="button"
+                            style={{backgroundColor: '#F0923A'}}
+                        >
+                                <i className="fa fa-download" style={{marginRight: 5}}></i>
+                                Hire Me
+                        </a>
+                    </p>
                 </div>
             </div>
 
