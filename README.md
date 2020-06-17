@@ -2,6 +2,16 @@
 
 Code for personal website hosted at https://quanganhhoang.github.io/personal-website/
 
+## Deployment
+
+### Github Pages
+
+Follow the tutorial [here](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
+
+### S3 & CloudFront
+
+Follow the tutorial [here](https://medium.com/@wolovim/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
