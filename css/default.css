@@ -77,7 +77,7 @@ audio:not([controls]) {
 [hidden] { display: none; }
 
 code, kbd, pre, samp {
-   font-family: monospace, serif;
+   font-family: Helvetica, sans-serif;
    font-size: 1em;
 }
 
@@ -144,7 +144,7 @@ html {
 body {
    background: #fff;
    /* font-family: 'opensans-regular', sans-serif; */
-   font-family: 'monospace', sans-serif;
+   font-family: Helvetica, sans-serif;
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
@@ -161,7 +161,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: black;
     /* font-family: 'opensans-bold', sans-serif; */
-    font-family: 'monospace', sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: normal;
 }
 
@@ -204,7 +204,7 @@ abbr:hover { cursor: help; }
     margin: 0;
     padding: 14px 6px 0 0;
     font-size: 84px;
-    font-family: /* Copperplate */ 'opensans-bold', sans-serif;
+    font-family: /* Copperplate */ Helvetica, sans-serif;
     line-height: 60px;
     text-indent: 0;
     background: transparent;
@@ -280,7 +280,7 @@ li p { }
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 22px;
-	font-family: 'opensans-bold', sans-serif;
+	font-family: Helvetica, sans-serif;
    border: none;
    color: #313131;
 }
@@ -399,7 +399,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-    font: 16px/30px 'opensans-bold', sans-serif;
+    font: 16px/30px Helvetica, sans-serif;
     background: #11ABB0;
     display: inline-block;
     text-decoration: none;

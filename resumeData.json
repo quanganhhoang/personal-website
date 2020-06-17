@@ -1,12 +1,13 @@
 {
     "main": {
-        "name": "QA Hoang",
+        "name": "Quang Anh (QA) Hoang",
         "occupation": "Software Engineer",
         "description": "",
+        "headshot": "headshot.jpg",
         "image": "profilepic.jpg",
-        "bio": "I am a full-stack software engineer actively seeking SWE internships with an emphasis on distributed systems and parallel computing but open to any opportunities. I enjoy coding, building cool things and learning through teaching others. My interests include coding, chess, soccer, tennis, MMA, table tennis, billiards and many more.",
-        "funfact": "I was the under-16 Chinese Chess (Xiangqi) and table tennis champion of my hometown, Hanoi.",
-        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "bio": "I am a full-stack software engineer actively seeking SWE internships with an emphasis on distributed systems and parallel computing but open to any opportunities. I enjoy coding, building cool things and learning from teaching others. My interests include coding, chess, soccer, tennis, MMA, table tennis, billiards and many more.",
+        "funfact": "I was the under-16 Chinese Chess (Xiangqi) and table tennis champion of my hometown, Hanoi. I am currently teaching myself Chess and Tennis with a goal of competing in tournaments in the near future! Challenge me to a game on lichess@superqa!",
+        "contactmessage": "I am open to opportunities and/or collaborations! Shoot me a message!",
         "email": "hoangq317@gmail.com",
         "phone": "509-240-7562",
         "address": {
@@ -16,7 +17,7 @@
             "zip": "98101"
         },
         "website": "https://qahoang.com",
-        "resumedownload": "https://qahoang.com",
+        "resumedownload": "https://www.dropbox.com/s/ytgzf59rywknjgw/QA_Resume.pdf?dl=0",
         "social": [
             {
                 "name":"facebook",
@@ -128,19 +129,19 @@
             {
                 "title": "Polaris",
                 "category": "A platform that provides study roadmaps for any disciplines",
-                "image": "canadian-wanderlust.jpg",
+                "image": "polaris.png",
                 "url": "https://studyroadmap.herokuapp.com"
             },
             {
                 "title": "Scalable Distributed System",
                 "category": "",
-                "image": "fury-fighting-gear.jpg",
-                "url": "#"
+                "image": "",
+                "url": "https://github.com/quanganhhoang/REST-API-Jersey-Tomcat"
             },
             {
                 "title": "E-Commerce Website",
                 "category": "",
-                "image": "original-thai-food.jpg",
+                "image": "",
                 "url": "#"
             }
         ]
