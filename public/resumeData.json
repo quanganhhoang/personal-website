@@ -1,0 +1,148 @@
+{
+    "main": {
+        "name": "QA Hoang",
+        "occupation": "Software Engineer",
+        "description": "",
+        "image": "profilepic.jpg",
+        "bio": "I am a full-stack software engineer actively seeking SWE internships with an emphasis on distributed systems and parallel computing but open to any opportunities. I enjoy coding, building cool things and learning through teaching others. My interests include coding, chess, soccer, tennis, MMA, table tennis, billiards and many more.",
+        "funfact": "I was the under-16 Chinese Chess (Xiangqi) and table tennis champion of my hometown, Hanoi.",
+        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "email": "hoangq317@gmail.com",
+        "phone": "509-240-7562",
+        "address": {
+            "street": "1401 Boren Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "zip": "98101"
+        },
+        "website": "https://qahoang.com",
+        "resumedownload": "https://qahoang.com",
+        "social": [
+            {
+                "name":"facebook",
+                "url":"https://www.facebook.com/quanh.hoang/",
+                "className":"fa fa-facebook"
+            },
+            {
+                "name":"linkedin",
+                "url":"https://www.linkedin.com/in/quang-anh-qa-hoang/",
+                "className":"fa fa-linkedin"
+            },
+            {
+                "name":"instagram",
+                "url":"https://www.instagram.com/quanh317/",
+                "className":"fa fa-instagram"
+            },
+            {
+                "name":"github",
+                "url":"https://github.com/quanganhhoang",
+                "className":"fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "education": [
+            {
+                "school": "Northeastern University",
+                "degree":"Masters in Computer Science",
+                "graduated":"Dec 2021 (Expected)",
+                "gpa": "4.0",
+                "courses": [
+                    "Data Mining Techniques",
+                    "Scalable Distributed System",
+                    "Database Management",
+                    "Fundamentals of Networking",
+                    "Algorithms",
+                    "Computer Systems",
+                    "Object Oriented Design"
+                ]
+            },
+            {
+                "school": "Whitman College",
+                "degree": "Bachelor of Arts in Mathematics-Economics",
+                "graduated": "Aug 2012 - June 2016",
+                "courses": []
+            }
+        ],
+        "work": [
+            {
+                "company": "Northeastern University",
+                "title": "Graduate Teaching Assistant",
+                "years": "June 2019 - Present",
+                "description": [
+                    "TA for Object Oriented Design and Algorithms."
+                ]
+            },
+            {
+                "company": "Facebook",
+                "title": "Software Engineer Intern",
+                "years": "Jan 2020 - April 2020",
+                "description": [
+                    "Worked on Buck (https://buck.build), a distributed build system developed and used at Facebook."
+                ]
+            },
+            {
+                "company": "StockCharts, Inc.",
+                "title": "Data Engineer",
+                "years": "Sept 2016 - Oct 2018",
+                "description": [
+                    "Wrote multithreaded code to pull data from APIs leveraging Java and knowledge of RESTful APIs & JSON.",
+                    "Updated databases and maintained stock data integrity using Java (JDBC) and SQL.",
+                    "Rewrote legacy Groovy code in Java leveraging best practices.",
+                    "Fixed & improved the calculations of technical analysis indicators/datasets written in Java."
+                ]
+            },
+            {
+                "company": "Whitman College",
+                "title": "Senior Admission Intern",
+                "years": "June 2015 - June 2016",
+                "description": [
+                    "Read and evaluated applications for admission.",
+                    "Scheduled and conducted interviews with 50+ prospective domestic & international students."
+                ]
+            },
+            {
+                "company": "Econsult Solutions, Inc.",
+                "title": "Research Assistant",
+                "years": "Sept 2014 - Dec 2014",
+                "description": [
+                    "Reconciled and analyzed data from 100+ organizations in a housing & development project.",
+                    "Researched, analyzed data trends on properties’ renovation and affordable housing in Philadelphia."
+                ]
+            }
+        ],
+        "skills": {
+            "languages": [
+                "Proficient in Java; familiar with Python, JavaScript, C, C++, SQL, Postgres",
+                "HTML, CSS, JavaScript, React/Redux, Nodejs"
+            ],
+            "technologies": [
+                "Django, Jersey, Tomcat, Apache Kafka, Zookeeper, Docker, Heroku",
+                "AWS Aurora, DynamoDB, EC2, RDS, Elastic Load Balancer, ElastiCache and other AWS services",
+                "GCP AppEngine, Cloud SQL, Firebase and other GCP services"
+            ]
+        }
+    },
+    "portfolio":{
+        "projects": [
+            {
+                "title": "Polaris",
+                "category": "A platform that provides study roadmaps for any disciplines",
+                "image": "canadian-wanderlust.jpg",
+                "url": "https://studyroadmap.herokuapp.com"
+            },
+            {
+                "title": "Scalable Distributed System",
+                "category": "",
+                "image": "fury-fighting-gear.jpg",
+                "url": "#"
+            },
+            {
+                "title": "E-Commerce Website",
+                "category": "",
+                "image": "original-thai-food.jpg",
+                "url": "#"
+            }
+        ]
+    }
+}
