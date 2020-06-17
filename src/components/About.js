@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 
 class About extends Component {
     render() {
-        let name, image, bio, funfact, address, street, city, state, zip, phone, email, resumeDownload;
+        let name, image, bio, funfact, address, street, city, state, zip, phone, email, resumedownload;
         let profilePic;
         if (this.props.data) {
-            ( { name, image, bio, funfact, address, phone, email, resumeDownload } = this.props.data);
+            ( { name, image, bio, funfact, address, phone, email, resumedownload } = this.props.data);
             ( { street, city, state, zip } = address)
             profilePic = `images/${image}`;
         }
@@ -39,7 +39,9 @@ class About extends Component {
                         <div className="columns download">
                             <p>
                                 <a 
-                                    href={resumeDownload} 
+                                    href={resumedownload}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
                                     className="button">
                                         <i className="fa fa-download"></i>
                                         Download Resume

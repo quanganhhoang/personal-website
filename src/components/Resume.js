@@ -17,7 +17,7 @@ class Resume extends Component {
                         <h3>{education.school}</h3>
                         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
                         <p className="courses">
-                            Relevant courses: {coursesDiv}
+                            {education.courses.length === 0 ? "" : `Relevant coursework: ${coursesDiv}`}
                         </p>
                     </div>
                 )
