@@ -1,6 +1,9 @@
 ## Personal Website
 
-Code for personal website hosted at https://quanganhhoang.github.io/personal-website/
+Code for personal website hosted at:
+
+Github Pages: https://quanganhhoang.github.io/personal-website/
+AWS S3 & CloudFront: https://qahoang.com
 
 ## Deployment
 
