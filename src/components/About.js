@@ -3,11 +3,12 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         let name, image, bio, funfact, address, street, city, state, zip, phone, email, resumeDownload;
+        let profilePic;
         if (this.props.data) {
             ( { name, image, bio, funfact, address, phone, email, resumeDownload } = this.props.data);
             ( { street, city, state, zip } = address)
+            profilePic = `../../public/images/${image}`;
         }
-        const profilePic = `images/${image}`;
 
         return (
             <section id="about">
