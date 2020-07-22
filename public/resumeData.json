@@ -112,11 +112,11 @@
         ],
         "skills": {
             "languages": [
-                "Proficient in Java; familiar with Python, JavaScript, C, C++, SQL, Postgres",
+                "Proficient in Java; familiar with Python, JavaScript, C, C++, MySQL, Postgres",
                 "HTML, CSS, JavaScript, React/Redux, Nodejs"
             ],
             "technologies": [
-                "Django, Jersey, Tomcat, Apache Kafka, Zookeeper, Docker, Heroku",
+                "Django, Django Rest Framework, Jersey, Tomcat, Apache Kafka, Zookeeper, Docker, Heroku",
                 "AWS Aurora, DynamoDB, EC2, RDS, Elastic Load Balancer, ElastiCache and other AWS services",
                 "GCP AppEngine, Cloud SQL, Firebase and other GCP services"
             ]
