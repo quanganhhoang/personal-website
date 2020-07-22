@@ -156,14 +156,14 @@
       right: 0;
    }
 
-   /* display menu panels */
-	#nav-wrap:target > ul#nav	{
-	   display: block;
-      padding: 30px 20px 48px 20px;
-      background: #1f2024;
-      margin: 0 30px;
-      clear: both;
-   }
+    /* display menu panels */
+    #nav-wrap:target > ul#nav	{
+        display: block;
+        padding: 30px 20px 48px 20px;
+        background: #fff;
+        margin: 0 30px;
+        clear: both;
+    }
 
    ul#nav li {
       display: block;

@@ -27,8 +27,8 @@ e. Others
  ------------------------------------------------------------------ */
 
 @import url("fonts.css");
-@import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
+@import url("./fontello/css/fontello.css");
+@import url("./font-awesome/css/font-awesome.min.css");
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -654,35 +654,35 @@ properly.
 --------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
 
-   .row {
-	   width: 460px;
-	   margin: 0 auto;
-      padding: 0;
-	}
-   .column, .columns {
-	   width: auto !important;
-	   float: none;
-	   margin-left: 0;
-	   margin-right: 0;
-      padding: 0 30px;
-   }
-   .row .row { width: auto; max-width: none; margin: 0 -30px; }
+    .row {
+        width: 460px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .column, .columns {
+        width: auto !important;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 30px;
+    }
+    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 
-   [class*="column"] + [class*="column"]:last-child { float: none; }
-   [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
+    [class*="column"] + [class*="column"]:last-child { float: none; }
+    [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
 
-   /* Offsets */
-   .row .offset-1    { margin-left: 0%; }
-   .row .offset-2    { margin-left: 0%; }
-   .row .offset-3    { margin-left: 0%; }
-   .row .offset-4    { margin-left: 0%; }
-   .row .offset-5    { margin-left: 0%; }
-   .row .offset-6    { margin-left: 0%; }
-   .row .offset-7    { margin-left: 0%; }
-   .row .offset-8    { margin-left: 0%; }
-   .row .offset-9    { margin-left: 0%; }
-   .row .offset-10   { margin-left: 0%; }
-   .row .offset-11   { margin-left: 0%; }
+    /* Offsets */
+    .row .offset-1    { margin-left: 0%; }
+    .row .offset-2    { margin-left: 0%; }
+    .row .offset-3    { margin-left: 0%; }
+    .row .offset-4    { margin-left: 0%; }
+    .row .offset-5    { margin-left: 0%; }
+    .row .offset-6    { margin-left: 0%; }
+    .row .offset-7    { margin-left: 0%; }
+    .row .offset-8    { margin-left: 0%; }
+    .row .offset-9    { margin-left: 0%; }
+    .row .offset-10   { margin-left: 0%; }
+    .row .offset-11   { margin-left: 0%; }
 }
 
 /* mobile narrow
@@ -738,7 +738,7 @@ properly.
 
 h2.responsive-headline {
     color: black;
-    font-size: 10px;
+    font-size: 30px;
     font-weight: normal;
 }
 

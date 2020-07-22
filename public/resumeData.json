@@ -30,14 +30,14 @@
                 "className":"fa fa-linkedin"
             },
             {
-                "name":"instagram",
-                "url":"https://www.instagram.com/quanh317/",
-                "className":"fa fa-instagram"
-            },
-            {
                 "name":"github",
                 "url":"https://github.com/quanganhhoang",
                 "className":"fa fa-github"
+            },
+            {
+                "name":"blog",
+                "url":"https://quanganhhoang.github.io/gatsby-blog/",
+                "className":"fa fa-rss"
             }
         ]
     },
@@ -48,15 +48,7 @@
                 "degree":"Masters in Computer Science",
                 "graduated":"Dec 2021 (Expected)",
                 "gpa": "4.0",
-                "courses": [
-                    "Data Mining Techniques",
-                    "Scalable Distributed System",
-                    "Database Management",
-                    "Fundamentals of Networking",
-                    "Algorithms",
-                    "Computer Systems",
-                    "Object Oriented Design"
-                ]
+                "courses": []
             },
             {
                 "school": "Whitman College",
@@ -66,6 +58,12 @@
             }
         ],
         "work": [
+            {
+                "company": "Snowflake Inc.",
+                "title": "Software Engineering Intern",
+                "years": "Aug 2020 - Dec 2020",
+                "description": []
+            },
             {
                 "company": "Northeastern University",
                 "title": "Graduate Teaching Assistant",
