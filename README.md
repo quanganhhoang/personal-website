@@ -4,6 +4,15 @@
 
     Make changes to "homepage" in package.json accordingly for local dev, gh-pages and s3 deployment.
 
+    gh-pages: 
+        "name": "personal-website",
+        "homepage": "http://quanganhhoang.github.io/personal-website",
+    
+    s3:
+        "name": "public",
+        "homepage": "./",
+
+
 ### Deployment
 
 Github Pages: https://quanganhhoang.github.io/personal-website/
