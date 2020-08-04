@@ -137,10 +137,10 @@
                 "url": "https://github.com/quanganhhoang/REST-API-Jersey-Tomcat"
             },
             {
-                "title": "E-Commerce Website",
-                "category": "",
-                "image": "",
-                "url": "#"
+                "title": "Plantiful",
+                "category": "An e-commerce site for plant sales",
+                "image": "plantiful.png",
+                "url": "https://plantifully.herokuapp.com/"
             }
         ]
     }
