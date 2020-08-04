@@ -7,10 +7,16 @@
     gh-pages: 
         "name": "personal-website",
         "homepage": "http://quanganhhoang.github.io/personal-website",
+
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     
     s3:
         "name": "public",
         "homepage": "./",
+
+        "predeploy": "npm run build",
+        "deploy": "aws s3 sync build/ s3://qahoang.com --acl public-read"
 
 
 ### Deployment
