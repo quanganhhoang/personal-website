@@ -141,6 +141,12 @@
                 "category": "An e-commerce site for plant sales",
                 "image": "plantiful.png",
                 "url": "https://plantifully.herokuapp.com/"
+            },
+            {
+                "title": "Plantiful Dashboard",
+                "category": "A dashboard web application to manage an e-commerce site",
+                "image": "plantiful-dashboard.png",
+                "url": "https://plantiful-dashboard.herokuapp.com/"
             }
         ]
     }
